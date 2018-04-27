@@ -30,7 +30,7 @@ function initAudio() {
     var audioLoader = new THREE.AudioLoader();
     var listener = new THREE.AudioListener();
     var audio = new THREE.Audio( listener );
-    audioLoader.load( 'sound/ultralight.mp3', function ( buffer ) {
+    audioLoader.load( 'sound/arabella.mp3', function ( buffer ) {
         audio.setBuffer( buffer );
         audio.setLoop( true );
         audio.play();
